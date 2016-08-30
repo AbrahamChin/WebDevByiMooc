@@ -35,7 +35,7 @@
 	font-weight:bold;}
 	
 .topBar a:hover{
-	color:red; 
+	color:#F60; 
 }
 
 /*logoBar*/
@@ -465,6 +465,10 @@
 .hr_25{
 	height:25px;
 }
+.hr_7{
+	height:7px;
+	overflow:hidden;
+}
 
 .footer{
 	padding-top:50px;
@@ -491,4 +495,125 @@
 
 .web img{
 	margin:0 12px;
-}	
+}
+
+/*===============Product categories =============*/
+.products .leftArea{
+	width:190px;
+}
+
+.products .rightArea{
+	width:810px;
+}
+
+.products .bannerImage{
+	float:none;
+}
+
+.products .items{
+	width:25%;
+	margin-bottom:10px;
+}
+
+/* navList */
+.leftNav{
+	background-color:#F3F3F3;
+	border:#D7D7D7 solid 1px;
+}
+
+.navTitle{
+	height:34px;
+	line-height:34px;
+	font-size:14px;
+	font-family:"Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	border-bottom:#D7D7D7 solid 1px;
+	text-align:center;
+}
+
+.navListTitle{
+	padding:0 18px 4px;
+	border-bottom:#D7D7D7 1px dotted;
+	margin-bottom:-1px;
+}
+
+.navListTitle h3{
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+
+.navList{
+	line-height:25px;
+}
+
+.navList li{
+	float:left;
+	width:50%;
+}
+
+.navList a:hover{
+	color:#F60;
+	text-decoration:underline;
+}
+
+
+/* ========= Product list (right) ========== */
+.productsListTitle{
+	height:34px;
+	border-bottom:#CCCCCC solid 2px;
+}
+
+.productsListTitle h3{
+	width:180px;
+	border-bottom:#096DBA solid 2px;
+	height:34px;
+	line-height:34px;
+	text-indent:9px;
+}
+
+.itemsLayout{
+	padding:0 15px;
+}
+
+.items{
+	height:265px;
+	float:left;
+	padding-left:0px;
+}
+
+.items a{
+	color:#000;
+}
+
+.items a:hover{
+	color:#F60;
+	/*text-decoration:underline;*/
+}
+
+.itemsImg{
+	height:170px;
+	text-align:center;
+}
+
+.itemsImg img{
+	width:172px;
+}
+
+.items p{
+	line-height:20px;
+}
+
+.prices{
+	padding-top:10px;
+	font-weight:bold;
+	color:#D6105A;
+}
+
+.stars{
+	width:13px;
+	height:12px;
+	margin-right:1px;
+	overflow:hidden;
+	background:url(../images/icons/starsComment.jpg) left top no-repeat;
+	display:inline-block;
+}
