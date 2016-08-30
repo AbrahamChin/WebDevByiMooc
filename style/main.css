@@ -465,6 +465,12 @@
 .hr_25{
 	height:25px;
 }
+
+.hr_15{
+	height:15px;
+	overflow:hidden;
+}
+
 .hr_7{
 	height:7px;
 	overflow:hidden;
@@ -551,12 +557,58 @@
 	width:50%;
 }
 
+.vertical li{
+	width:auto;
+	float:none;
+	padding-left:8px;
+}
+
 .navList a:hover{
 	color:#F60;
 	text-decoration:underline;
 }
 
+.recommendList{
+	width:188px;
+	background-color:#FFF;
+	border-right:#D7D7D7 solid 1px;
+}
 
+.recommendItemsSmall{
+	width:100%;
+	padding-top:6px;
+	float:left;
+}
+
+.recommendItemsSmallImg{
+	width:83px;
+	height:79px;
+	text-align:center;
+	float:left;
+}
+
+.recommendItemsSmallImg img{
+	width:83px;
+	height:79px;
+}
+
+.recommendItemsText{
+	height:79px;
+	padding-top:12px;
+	width:96px;
+	float:left;
+}
+
+.recommendItemsText p{
+	color:#000;
+}
+
+.recommendItemsText h3{
+	font-family:"Microsoft YaHei UI", "Microsoft YaHei UI Light";
+	font-weight:normal;
+	color:#181818;
+	line-height:30px;
+}
 /* ========= Product list (right) ========== */
 .productsListTitle{
 	height:34px;
@@ -579,6 +631,7 @@
 	height:265px;
 	float:left;
 	padding-left:0px;
+	position:relative;
 }
 
 .items a{
@@ -617,3 +670,251 @@
 	background:url(../images/icons/starsComment.jpg) left top no-repeat;
 	display:inline-block;
 }
+
+.hot{
+	width:100%;
+	height:100%;
+	background:url(../images/icons/hotIcon.png) left top no-repeat;
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+/* ==============page============*/
+.page{
+	text-align:center;
+	padding:0 10 0 4px;
+}
+
+.page a{
+	height:24px;
+	display:inline-block;
+	line-height:24px;
+	border:#CCC solid 1px;
+	padding: 0 12px;
+	margin:0 2px;
+}
+
+.page .eclipse{
+	display:inline-block;
+	padding:0 12px;
+	margin:0 2px;
+}
+
+.morePage{
+	padding-left:14px;
+	display:inline-block;
+	height:24px;
+	line-height:24px;
+	margin-right:4px;
+}
+
+.pageNum{
+	width:29px;
+	padding: 0 3px;
+	border:#CCC solid 1px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+}
+
+.pageOkButton{
+	width:44px;
+	height:24px;
+	line-height:24px;
+	background-color:#E8E8E8;
+}
+
+.pageChar{
+	padding:0 10 0 4px;
+}
+
+/* ======================== Filter box ==================== */
+.filter{
+	border-bottom:#CCC solid 1px;
+}
+
+.filter dt{
+	line-height:32px;
+	width:74px;
+	text-align:right;
+	float:left;
+	margin-left:16px;
+	margin-right:26px;
+}
+
+.unfilter{
+	width:55px;
+	float:left;
+	line-height:32px;
+}
+
+.filter a{
+	padding:2px;
+}
+
+.filter .active{
+	color:#FFF;
+	background-color:#1D7AD9;
+}
+
+.filterList{
+	width:626px;
+	float:left;
+	line-height:32px;
+}
+
+.filterList a{
+	color:#1D7AD9;
+}
+
+.filterList li{
+	width:20%;
+	float:left;
+}
+
+.filterMore{
+	border:#CCC solid 1px;
+	height:23px;
+	line-height:23px;
+	margin-top:4px;
+	float:left;
+	padding-left:6px;
+	margin-right:11px;
+}
+
+.filterMore a{
+	color:#000;
+}
+
+.combo{
+	width:7px;
+	height:5px;
+	margin:0 7px;
+	background:url(../images/icons/comboBoxSymbol.jpg) left center no-repeat;
+	display:inline-block;
+}
+
+.addressInfo{
+	height:31px;
+	border:#CCC solid 1px;
+	background-color:#F5F5F5;
+}
+
+.address{
+	float:left;
+}
+
+.address span{
+	float:left;
+	line-height:31px;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+.address .select{
+	margin-top:4px;
+}
+
+.filterText{
+	line-height:31px;
+	padding-right:80px;
+}
+
+.filterText span{
+	vertical-align:middle;
+}
+
+.check{
+	position:relative;
+	top:-3px;
+}
+
+.check input,
+.check label{
+	vertical-align:middle;
+}
+
+.charsOnlyDisplay{
+	padding-left:2px;
+
+}
+.goodsNum em{
+	color:#D70000;
+	font-style:normal;
+	font-weight:bold;
+}
+.filterListMore{
+	padding-left:0.05%;
+}
+
+.filterListMore .items{
+	width:33.3%;
+}
+
+.itemsLayout em{
+	color:#3978BD;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.itemsLayout i{
+	color:#000;
+	font-style:normal;
+	font-weight:normal;
+}
+
+.itemsLayout em:hover{
+	text-decoration:underline;
+}
+
+.addToCart{
+	
+	border:#999 solid 1px;
+	height:22px;
+	background:url(../images/icons/addToCart.jpg) 6px center no-repeat;
+	display:inline-block;
+	padding:0 6px 0 23px;
+	
+}
+
+/* ==== Components======*/
+.select{
+	border:#999 solid 1px;
+	height:22px;
+	line-height:22px;
+	float:left;
+	background-color:#FFF;
+	padding-left:10px;
+	padding-right:20px;
+	position:relative;
+	z-index:4;
+}
+
+.select span{
+	position:absolute;
+	right:0;
+	top:0;
+	height:100%;
+	width:0px;
+	background:url(../images/icons/selectAddrBoxSymbol.jpg) center center no-repeat;
+}
+
+.select h3{
+	font-size:12px;
+	font-weight:normal;
+}
+
+.showAddress{
+	border:#999 solid 1px;
+	position:absolute;
+	left:-1px;
+	top:22px;
+	background-color:#FFF;
+	width:100%;
+}
+
+.showAddress li{
+	padding-left:10px;
+}
+
